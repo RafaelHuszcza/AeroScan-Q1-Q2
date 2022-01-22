@@ -1,0 +1,39 @@
+:root {
+    --main-color: #F4F4F4;
+    --second-color: white;
+    }
+
+body{
+    margin: 0;  
+    color:black;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;    
+    background-color: var(--main-color);
+    justify-content: center;  
+    align-items: center;  
+}
+
+.content{
+    display: flex;
+    background-color: var(--second-color); 
+    height: 10rem;
+    width: 26rem;
+    padding: 1rem;
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 0.5rem;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid grey;
+}
+
+
+
